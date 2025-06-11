@@ -1,0 +1,162 @@
+* {
+  color: black;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(Fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-VariableFont;
+  src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.logo img{
+  width: 48px;
+  height: 48px;
+  background-color: black;
+  margin-left: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+header {
+  border-bottom: 4px solid black;
+  font-family: Montserrat-Bold, Montserrat-VariableFont;
+  margin: 12px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-bottom: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown{
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown img{
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown button{
+  background-color: white;
+  color: black;
+  font-family: Montserrat-Bold, Montserrat-VariableFont; 
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 86.538px;
+  height: 47.2px;
+  font-size: 1rem;
+  display: flex;
+}
+
+.dropdown button:hover{
+  background-color: grey;
+  color: black;
+}
+
+.dropdown a{
+  display: block;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dropdown a:hover{
+  background-color: grey;
+  color: black;
+}
+
+.dropdown .dropdown-content{
+  margin-left: 15px;
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.searchbar [type=text]{
+  height: 48px;
+  border-radius: 12px;
+}
+
+.searchbar {
+  display: flex;
+}
+
+.searchbar button{
+  border-color: transparent;
+  background-color: transparent;
+}
+
+input{
+  font-family: Montserrat-Medium, Montserrat-VariableFont; 
+  padding-left: 2px;
+  width: 394px;
+  cursor: text;
+  margin-left: 25px;
+  border-radius: 12px;
+  border-color: white;
+  background-color:#F6F6f6;
+  padding-left: 16px;
+}
+
+.login button{
+  border-radius: 12px;
+  border-color: black;
+  border-width: 2px;
+  width: 112px;
+  height: 48px;
+  font-family: Montserrat-Bold, Montserrat-VariableFont;
+  margin-left: 256px;
+  cursor: pointer;
+}
+
+.select_wallet button{
+  border-radius: 12px;
+  width: 175px;
+  height: 48px;
+  font-family: Montserrat-Bold, Montserrat-VariableFont;
+  margin-left: 12px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
